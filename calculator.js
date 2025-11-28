@@ -20,7 +20,7 @@ function call() {
          res=eval(Number(num1)/Number(num2));
     }
     else if (mod.checked){
-        res=eval(Number(num1)%Number(num2)):
+        res=eval(Number(num1)%Number(num2));
     }
     result.value=res
 }
