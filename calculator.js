@@ -5,6 +5,7 @@ function call() {
     let s=document.getElementById("sub");
     let m=document.getElementById("multiply");
     let d=document.getElementById("divide");
+    let mod=document.getElementById("modulo");
     let res=document.getElementById("result");
     if (a.checked) {
         res=eval(Number(num1)+Number(num2));
@@ -17,6 +18,9 @@ function call() {
     }
     else if (d.checked){
          res=eval(Number(num1)/Number(num2));
+    }
+    else if (mod.checked){
+        res=eval(Number(num1)%Number(num2)):
     }
     result.value=res
 }
